@@ -14,19 +14,19 @@
                 <form action="add_contact_back.php" method="POST">
                   <div class="mb-3">
                     <label for="name" class="form-label">Name</label>
-                    <input type="text" class="form-control" id="name" name="contactName" placeholder="Enter full name" required>
+                    <input required type="text" class="form-control" id="name" name="contactName" placeholder="Enter full name" required>
                   </div>
                   <div class="mb-3">
                     <label for="company" class="form-label">Company</label>
-                    <input type="text" class="form-control" id="company" name="contactCompany" placeholder="Enter company name" required>
+                    <input required type="text" class="form-control" id="company" name="contactCompany" placeholder="Enter company name" required>
                   </div>
                   <div class="mb-3">
                     <label for="phone" class="form-label">Phone</label>
-                    <input type="tel" class="form-control" id="phone" name="contactPhone" placeholder="Enter phone number" required>
+                    <input required type="tel" class="form-control" id="phone" name="contactPhone" placeholder="Enter phone number" required>
                   </div>
                   <div class="mb-3">
                     <label for="email" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="email" name="contactEmail" placeholder="Enter email address" required>
+                    <input required type="email" class="form-control" id="email" name="contactEmail" placeholder="Enter email address" required>
                   </div>
                   <div class="d-grid gap-2">
                     <button type="submit" class="btn btn-primary">Add Contact</button>

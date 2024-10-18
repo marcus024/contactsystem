@@ -31,7 +31,6 @@
               </div>
               <h4 class="mb-2">REGISTER</h4>
               <p class="mb-4">Create your account</p>
-
               <form id="formAuthentication" class="mb-3" action="register_back.php" method="POST">
                 <div class="mb-3">
                   <label for="name" class="form-label">Name</label>
@@ -66,7 +65,6 @@
                 </div>
                 <button id="submitBtn" class="btn btn-primary d-grid w-100" type="submit">Sign up</button>
               </form>
-
               <p class="text-center">
                 <span>Already have an account?</span>
                 <a href="../../../index.php"><span>Sign in instead</span></a>
@@ -76,7 +74,6 @@
         </div>
       </div>
     </div>
-
     <script>
         const password = document.getElementById('password');
         const confirmPassword = document.getElementById('confirm_password');
@@ -96,7 +93,6 @@
         password.addEventListener('input', validatePassword);
         confirmPassword.addEventListener('input', validatePassword);
     </script>
-
     <script src="../../../assets/vendor/libs/jquery/jquery.js"></script>
     <script src="../../../assets/vendor/libs/popper/popper.js"></script>
     <script src="../../../assets/vendor/js/bootstrap.js"></script>
