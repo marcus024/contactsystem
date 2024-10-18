@@ -28,11 +28,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $sql = "INSERT INTO contactDetails (name, emailAddress, password, confirmPassword) VALUES ('$name', '$email', '$hashed_password','$hashed_password')";
 
     if (mysqli_query($conn, $sql)) {
-        echo "Registration successful!";
+        echo "<script>alert('Registered Successfully'); window.location.href='index.php';</script>";
         header("Location: ../../../index.php"); 
         exit(); 
     } else {
-        echo "Error: " . mysqli_error($conn);
+        echo "<script>alert('Duplicate Email'); window.location.href='index.php';</script>";
     }
 }
 
