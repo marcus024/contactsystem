@@ -9,7 +9,6 @@
             <div class="col-sm-12">
               <div class="card-body">
                 <h2 class="card-title text-primary text-center">Add New Contact</h2>
-
                 <!-- Add Contact Form Begins Here -->
                 <form action="add_contact_back.php" method="POST">
                   <div class="mb-3">
@@ -33,7 +32,6 @@
                   </div>
                 </form>
                 <!-- Add Contact Form Ends Here -->
-
                 <div class="mt-3">
                   <a href="main.php" class="btn btn-secondary">Back to Contacts</a>
                 </div>
@@ -45,5 +43,4 @@
     </div>
   </div>
 </div>
-
 <?php include ('header-footer/footermain.php'); ?>
